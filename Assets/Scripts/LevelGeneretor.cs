@@ -2,11 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelGeneretor : MonoBehaviour {
 
 	[SerializeField] private GameObject platformPrefab;
 	[SerializeField] private Transform target;
+	[SerializeField] private GameObject losePanel;
 
 	private float levelWidth = 3f;
 	private float minY = .5f;
@@ -23,7 +25,7 @@ public class LevelGeneretor : MonoBehaviour {
 
 	private void createPlatforms(){
 		if(target.position.y > transform.position.y){
-			for(int i = 0; i<7 ; i ++){
+			for(int i = 0; i<6 ; i ++){
 				spawnPosition.y += Random.Range(minY, maxY);
 				spawnPosition.x = Random.Range(-levelWidth, levelWidth);
 				Instantiate(platformPrefab, spawnPosition, Quaternion.identity);
@@ -40,5 +42,9 @@ public class LevelGeneretor : MonoBehaviour {
 				Destroy(i);
 			}
 		}
+	}
+
+	public void StarAgain(){
+		SceneManager.LoadScene(0);
 	}
 }
