@@ -1,11 +1,13 @@
 # Doodle-Jump
 It is a basic ' Doodle Jump ' replica. It only contains basic gameplay mechanics.
 ## In-Game-Pıcs
-![DoodleJump](https://user-images.githubusercontent.com/94652199/142720164-4e0f2306-d1ad-415f-8cab-6fcc69efc44c.png)
 
-![DoodleJump-1](https://user-images.githubusercontent.com/94652199/142720166-2526f650-8bbc-4aee-8b68-a4f06deadf6f.png)
+![jump1](https://user-images.githubusercontent.com/94652199/142780370-0a9dfd5a-60ed-426a-95ea-b52868a250ed.png)
 
-![Screenshot_4](https://user-images.githubusercontent.com/94652199/142720182-f0d3f488-8411-4af4-81dc-fb21bdad05cf.png)
+![jump2](https://user-images.githubusercontent.com/94652199/142780372-4031e22a-bee4-43dc-8c92-9ab3c2fac0c4.png)
+
+![jump3](https://user-images.githubusercontent.com/94652199/142780376-7194f2a1-b200-42a9-8a5a-dc3faa2e7e0f.png)
 
 ## Game-Engine-Video
-![video-to-gif-converter](https://user-images.githubusercontent.com/94652199/142720457-4bd0c643-ba59-4888-bfdb-5dc7256fcf96.gif)
+
+![DoodleJump](https://user-images.githubusercontent.com/94652199/142780507-39575c07-6ff7-4656-ad1d-ee4ec674aa09.gif)
